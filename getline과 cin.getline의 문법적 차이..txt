@@ -1,0 +1,7 @@
+getline과 cin.getline의 문법적 차이.
+
+일단, getline은 #include <string> -> c++ 이고
+        cin.getline은 #include <cstring> -> c이다.
+
+문법은 getline(cin, 문자열) 이고
+          cin.getline(문자열, 할당할 문자열의 크기) 이다.

@@ -1,0 +1,57 @@
+namespace, using
+
+std:: 범위 지정 연산자
+
+1. 
+[AskUp] [오후 8:45] 해당 코드는 함수가 아닌 namespace를 정의하는 코드입니다. namespace는 변수, 함수, 클래스 등의 이름을 중복되지 않게 만들기 위한 C++의 기능 중 하나입니다.
+
+iu라는 이름의 namespace를 정의하고, aout, bout, cout이라는 변수를 선언하고 초기값을 할당하고 있습니다. 이렇게 선언된 변수들은 iu namespace에 속하게 됩니다.
+
+따라서, 함수명은 없습니다. 대신, iu namespace 내부의 변수들은 iu::aout, iu::bout, iu::cout과 같이 namespace 이름과 변수 이름을 함께 사용하여 참조할 수 있습니다.
+[김범준] [오후 8:46] 아하 함수를 만든게 아니라 헤더파일만 만든거고, 헤더파일 안에는 함수가 없어도되고, 변수만 있어도된다는 거네? 그리고.. 그 변수를 네임스페이스를 이용해 main이 있는 파일에 쓸 수 있는거지?
+[AskUp] [오후 8:46] 맞습니다! 헤더파일은 함수를 정의할 필요 없이 변수, 상수, 클래스, 구조체 등을 정의할 수 있습니다. 따라서, 해당 코드에서는 iu namespace 내에 변수들만 정의하고 있습니다.
+
+헤더파일에 정의된 변수, 상수, 클래스, 구조체 등은 다른 파일에서 include를 통해 사용할 수 있습니다. 이 때, 해당 변수들의 이름 앞에는 namespace 이름을 붙여서 사용해야 합니다. 예를 들어, iu namespace 내에 선언된 aout 변수를 main 함수에서 사용하려면 iu::aout과 같이 namespace 이름을 붙여서 사용합니다.
+
+따라서, 해당 헤더파일을 main 함수에서 include하고, iu namespace 내에 선언된 변수들을 사용할 수 있습니다.
+
+[김범준] [오후 8:48] 선언한 네임스페이스들은 (내가 만든 iu 네임스페이스) 헤더파일에 있는 것이고, 이걸 main함수가 있는 파일에 사용하는걸 "인클루드" 한다 라고 할 수있지?
+
+[AskUp] [오후 8:48] 맞습니다! 선언한 namespace는 헤더파일에 정의되어 있으며, 이를 다른 파일에서 사용하기 위해서는 헤더파일을 해당 파일에 포함시켜야 합니다. 이를 "include"라고 합니다.
+
+따라서, iu namespace를 정의한 헤더파일을 main 함수가 있는 파일에서 include하면 해당 파일에서 iu namespace 내에 선언된 변수들을 사용할 수 있습니다.
+
+[김범준] [오후 8:51] 헤더파일에는 네임스페이스만 들어갈 수 있는건 아니지? 함수가 들어간 헤더파일의 짧은 예시를 보여줄래?
+[AskUp] [오후 8:51] 맞습니다! 헤더파일에는 함수, 클래스 등의 선언도 가능합니다. 예를 들어, 다음과 같은 함수가 포함된 헤더파일 예시를 보여드리겠습니다.
+
+```
+// mymath.h
+
+namespace mymath {
+   int add(int a, int b);
+   int sub(int a, int b);
+}
+```
+
+위 예시에서는 mymath namespace 내에 add와 sub 함수를 선언하고 있습니다. 이 헤더파일을 다른 파일에서 include하고, mymath namespace 내의 함수들을 사용할 수 있습니다.
+
+```
+// main.cpp
+
+#include "mymath.h"
+#include <iostream>
+
+int main() {
+   int result = mymath::add(1, 2);
+   std::cout << "1 + 2 = " << result << std::endl;
+
+   result = mymath::sub(5, 3);
+   std::cout << "5 - 3...
+[김범준] [오후 8:53] 내가 만든 iu.h 파일을 인클루드할때 #include "iu.h" 를 해야하니 아니면 #include 'iu.h'를 해야하니
+[AskUp] [오후 8:54] 헤더파일을 include 할 때는 큰따옴표(")를 사용합니다. 따라서, `#include "iu.h"`와 같이 큰따옴표를 사용하여 include 합니다. 
+
+작은따옴표(')를 사용할 경우, 컴파일러에서는 문자열 상수로 인식하여 오류가 발생합니다. 따라서, 헤더파일을 include 할 때는 항상 큰따옴표를 사용해야 합니다.
+
+
+
+

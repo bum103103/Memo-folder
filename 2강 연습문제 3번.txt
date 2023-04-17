@@ -1,0 +1,24 @@
+﻿'c++ 연습 프로젝트.exe'(Win32): 'C:\Users\bum10\source\repos\c++ 연습 프로젝트\x64\Debug\c++ 연습 프로젝트.exe'을(를) 로드했습니다. 기호가 로드되었습니다.
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\ntdll.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\kernel32.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\KernelBase.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\msvcp140d.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\ole32.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\msvcp_win.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\ucrtbase.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\gdi32.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\win32u.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\gdi32full.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\user32.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\combase.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\rpcrt4.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\vcruntime140_1d.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\vcruntime140d.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\ucrtbased.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\imm32.dll'을(를) 로드했습니다. 
+0x4d58 스레드가 종료되었습니다(코드: 0 (0x0)).
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\kernel.appcore.dll'을(를) 로드했습니다. 
+'c++ 연습 프로젝트.exe'(Win32): 'C:\Windows\System32\msvcrt.dll'을(를) 로드했습니다. 
+0x5920 스레드가 종료되었습니다(코드: 0 (0x0)).
+0x228c 스레드가 종료되었습니다(코드: 0 (0x0)).
+'[7424] c++ 연습 프로젝트.exe' 프로그램이 종료되었습니다(코드: 0 (0x0)).

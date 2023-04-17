@@ -1,0 +1,20 @@
+2강 연습문자 12번.
+
+(1) c-스트링 문자열 
+a. (비교) 
+strcmp() 사용. 두개의 문자열을 서로 비교함.
+strcmp(a1, a2)
+
+b. (복사)
+srtcpy() 사용. 문자열을 복사함.
+strcpy(a1, a2) a2를 a1으로 복사함.
+
+(2) string 사용.
+a. (비교)
+operator ==() 사용.
+예를 들어, if(str1 == str2)
+
+b. (복사)
+operator =() 사용. 
+예를 들어, string str = "hello";
+

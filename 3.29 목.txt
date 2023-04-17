@@ -1,0 +1,30 @@
+3.29 목
+
+sizeof 말고
+
+a.length()와 a.size()를 쓰자. 
+
+int a =5; == int a(5)
+
+string s = "Hello"; == string s("Hello");
+
+
+2강 연습문제 8번.
+
+cout << questiong[i] + answer[i].lengh() " 
+
+
+------------------------
+함수는 호출만 함 .
+
++ 호출한 다음 결과를 보고 받는 것
+
+함수야; -> void
+
+int a = m.print(c); (정수) -> int 
+ㄱ.  only 호출 -> void
+ㄴ.  cout << 함수명; -> int(정수), double(실수)
+
+-------------------------
+인라인 함수는 일종의 매크로 상수..
+
